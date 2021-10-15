@@ -23,11 +23,11 @@ public class FabriquerMur {
 
 	static boolean fabriquerMur(int nbSmall, int nbBig, int longueur) {
 
-		int small = 1;
+		
 		int big = 5;
 		boolean resultat = false;
 
-		resultat = longueur >= nbSmall * small + nbBig * big;
+		resultat = longueur <= (nbSmall) + (nbBig * big);
 		
 		
 		return resultat;
