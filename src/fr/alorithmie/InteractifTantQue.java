@@ -10,27 +10,23 @@ public class InteractifTantQue {
 	public static void main(String[] args) {
 
 		mainMethod();
-		
-		
 
 	}
 
 /////////////////////////////////////////// Méthodes ///////////////////////////////////////////////////////	
-	
-private static void mainMethod() {
-	
-	do {
-		nb = trycatch();
 
-	} while (nb <= 0 || nb >= 10);
+	private static void mainMethod() {
 
-	System.out.println("Sorti de la boucle");
+		do {
+			nb = trycatch();
 
-	scanner.close();
-		
+		} while (nb <= 0 || nb >= 10);
+
+		System.out.println("Sorti de la boucle");
+
+		scanner.close();
+
 	}
-
-
 
 	// méthode trycatch pour chiffre non entier
 	private static int trycatch() {
@@ -49,13 +45,12 @@ private static void mainMethod() {
 			}
 
 		} while (tryCatch == true);
-		
+
 		return nb;
 
 	}
 
 	public static int askNumber() {
-		
 
 		System.out.println("Donnez un chiffre entre 1 et 10");
 		nb = scanner.nextInt();

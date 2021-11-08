@@ -109,5 +109,4 @@ public class InteractifPlusMoins {
 
 		} while (startAgain == true);
 	}
-
 }

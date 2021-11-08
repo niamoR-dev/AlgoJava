@@ -17,7 +17,6 @@ public class InteractifTableMult {
 	/////////////////////////////////////////// Méthodes
 	/////////////////////////////////////////// //////////////////////////////////////////////////////////////////
 
-	
 	// méthode principale
 	private static void mainMethod() {
 
@@ -33,7 +32,6 @@ public class InteractifTableMult {
 		multNumber();
 	}
 
-	
 	// méthode qui fait une multiplication
 	private static void multNumber() {
 		for (int i = 0; i <= 10; i++) {
